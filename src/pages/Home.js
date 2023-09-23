@@ -16,7 +16,7 @@ const Home = () => {
             <APropos/>
             <ServicesC/>
             <ServiceRecouv/>
-            // <DerniersBlogs/>
+        {/* <DerniersBlogs/> */}
             {/* <AvieClients/> */}
            </>
                 
