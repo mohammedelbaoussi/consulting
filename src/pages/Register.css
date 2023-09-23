@@ -1,0 +1,53 @@
+.register{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f1f1;
+    padding: 2rem;
+    width: 40%;
+}
+.registerForm .smallC{
+    position: relative;
+}
+.registerForm small{
+    position: absolute;
+    right: 19px;
+    top: 12px;
+    cursor: pointer;
+
+}
+.loginerrors{
+    background-color: #ffff;
+    padding: 12px;
+}
+.registerForm button{
+    background-color: #0071BC;
+    color: #ffff;
+}
+
+.registerForm button:hover{
+    color: #0071BC;
+    background-color: #ffff;
+}
+.registerForm a{
+   text-decoration: none;
+   color: #0071BC;
+}
+
+@media (max-width: 400px) {
+    .registerForm{
+        width: 100%;
+    }
+    .dejaCompte {
+        display: block;
+    }
+}

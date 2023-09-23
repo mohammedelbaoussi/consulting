@@ -1,0 +1,21 @@
+/* .orderDetails h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+  } */
+  .orderDetails .head {
+    padding-top : 2rem ;
+    padding-bottom: 2rem ;
+    text-decoration: underline #fff;
+    
+  }
+  .orderDetails .head span{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem ;
+    
+  }
+
+  .orderDetails a {
+    text-decoration: none;
+    color: #000;
+  }

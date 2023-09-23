@@ -1,0 +1,32 @@
+.aproposdenous .headhead{
+    color: #ffff;
+}
+
+.aproposdenous .ImgC {
+    width: 100%;
+    height: 100%;
+  }
+.aproposdenous .ImgC img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.aproposdenous .ImgCS img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.aproposdenous .ImgCS{
+    height: 8rem;
+    width: 100%;
+}
+
+.aproposdenous h4{
+  padding-top: 1rem;
+}
+
+.aproposdenous .important{
+  background-color: #fff2ca;
+  padding-left: 0.3rem;
+}

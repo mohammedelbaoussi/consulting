@@ -1,0 +1,78 @@
+.apropos{
+    /* background-image: url('../../public/images/slider-01-img-b7.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center; */
+    /* height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #0071BC;
+
+}
+
+.aproposC{
+   padding-top: 5rem ;
+   padding-bottom: 5rem;
+}
+.aproposC p{
+   color: #fff;
+   font-size: 1.2rem;
+   font-weight: 500;
+   line-height: 3rem;
+}
+.aproposC a{
+    text-decoration: none;
+    color: #fff;
+    /* background-color: #fff; */
+    padding: 0.5rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 1px solid #fff;
+ }
+ .aproposC a:hover{
+    background-color: #fff;
+    color: #0071BC;
+ }
+.apropos .apro{
+    text-decoration: none;
+    background-color: #0071BC;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+.apropos .apro:hover{
+    background-color: #0081d7;
+}
+
+
+.serviceImg{
+    height: 12rem;
+}
+
+.serviceImg img{
+    object-fit: fit;
+    width: 100%;
+    height: 100%;
+}
+
+.boxService{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceCard a {
+    text-decoration: none;
+}
+.serviceCard h3 {
+    margin-top: 13px;
+}
+
+.serviceCard p{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

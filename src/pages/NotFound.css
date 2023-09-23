@@ -1,0 +1,12 @@
+#error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #error-page i{
+    color: #8e8e8e;
+  }

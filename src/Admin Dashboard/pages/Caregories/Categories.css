@@ -1,0 +1,57 @@
+.createCateForm{
+    width: 40rem;
+    border: 1px solid #d6d6d6;
+    padding: 1rem;
+}
+
+.categoryName{
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Categories .buttons button {
+    width: 50%;
+    background-color: #ffff;
+    border-radius: 4px;
+   }
+   .Categories .buttons .edit {
+    color: green;
+    border: 1px solid green;
+    }
+   
+    .Categories .buttons .edit:hover {
+     background-color: green;
+     color: #ffff;
+     }
+     .Categories .buttons .delete {
+       color: red;
+       border: 1px solid red;
+       }
+      
+       .Categories .buttons .delete:hover {
+     background-color: red;
+     color: #ffff;
+   }
+
+.catHeader button{
+    background-color: #fff;
+    border: 1px solid #0160a0;
+    
+}
+.catHeader button:hover{
+    background-color: #0160a0;
+    
+}
+.catHeader button:hover a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.catHeader a {
+    text-decoration: none;
+    color: #0160a0;
+}

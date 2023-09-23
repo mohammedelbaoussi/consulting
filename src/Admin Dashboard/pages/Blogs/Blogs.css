@@ -1,0 +1,63 @@
+.productsHeader h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.productsHeader button{
+    background-color: #0160a0;
+    color: #ffff;
+    padding: 0.3rem 0.9rem;
+    border-radius: 4px;
+    border: none
+  }
+  .dashproducts .productsHeader button a{
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  .productsHeader button:hover{
+    background-color: #017bcc;
+  }
+  .dashproducts .singleBlog {
+     border-radius: 4px;
+  }
+  .dashproducts .singleBlog .productImg{
+    height: 15rem;
+  }
+  
+  .dashproducts .singleBlog .productImg img{
+    width: 100%;
+   
+    /* object-fit: cover; */
+  }
+  
+  .dashproducts .singleBlog .buttons  {
+    padding: 7px 2px;
+   }
+  .dashproducts .singleBlog .buttons button {
+   width: 50%;
+   background-color: #ffff;
+   border-radius: 4px;
+  }
+  .dashproducts .singleBlog .buttons .edit {
+   color: green;
+   border: 1px solid green;
+   }
+  
+   .dashproducts .singleBlog .buttons .edit:hover {
+    background-color: green;
+    color: #ffff;
+    }
+    .dashproducts .singleBlog .buttons .delete {
+      color: red;
+      border: 1px solid red;
+      }
+     
+  .dashproducts .singleBlog .buttons .delete:hover {
+    background-color: red;
+    color: #ffff;
+  }
+
+  
+@media (max-width: 400px) {
+  
+}

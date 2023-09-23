@@ -1,0 +1,82 @@
+.headhead{
+    background-color: #29ABE2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* .serviceImg{
+    width: 100%;
+    height: 100%;
+} */
+.serviceImg img{
+    object-fit: fill;
+    width: 100%;
+}
+
+.service h5{
+    padding-top: 2rem ;
+    padding-bottom: 2rem;
+}
+
+.service .content{
+    padding-bottom: 2rem;
+}
+
+/* .servieDetails .share{
+    text-align: end;
+    padding-bottom: 2rem;
+}
+
+.servieDetails .share .Partager{
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-left: 5px;
+}
+.blogDetails .share .Sicon{
+    color: #aaa9a9;
+    padding-left: 6px;
+}
+
+.blogDetails .comments{
+     padding-bottom: 2rem;
+}
+
+.blogDetails .comments h4{
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+
+.blogDetails .comments .comment{
+   display: flex;
+ }
+ 
+.blogDetails .comments .comment img{
+   width: 4rem;
+   height: 4rem;
+   margin-right: 5px;
+}
+
+.blogDetails .comments .comment h5{
+  font-weight:700;
+}
+
+.blogDetails .addcomment{
+    padding-bottom: 8rem;
+ }
+ .blogDetails .addcomment h4{
+    font-weight: 700;
+ }
+
+.blogDetails .addcomment .alertLogin{
+  padding-bottom: 1rem;
+ }
+.blogDetails .addcomment .alertLogin span{
+    background-color: #aaa9a9;
+    padding: 0.4rem;
+ }
+ 
+.blogDetails .addcomment .WriteComment input{
+  padding: 5px;
+  width: 30rem;
+} */

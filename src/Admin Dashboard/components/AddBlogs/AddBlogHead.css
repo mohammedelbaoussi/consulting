@@ -1,0 +1,20 @@
+.addbloghead button{
+    background-color: #0160a0;
+    color: #fff;
+}
+.addbloghead button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 400px) {
+    .addbloghead button{
+        height: 2rem;
+        font-size: 0.5rem;
+    }
+
+    .addbloghead h2{
+        font-size: 0.9rem;
+
+    }
+}

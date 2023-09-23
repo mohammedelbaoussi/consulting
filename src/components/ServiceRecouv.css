@@ -1,0 +1,27 @@
+.serviceRecouv{
+    background-image: url('../../public/images/slider_8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    background-color: #dbdbdb;
+    background-blend-mode:normal;
+}
+
+.Recouv{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.Recouv a{
+    text-decoration: none;
+    background-color: #0071BC;
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+}
+.Recouv a{
+    background-color: #0080d6;
+}

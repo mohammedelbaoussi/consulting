@@ -1,0 +1,79 @@
+.Orders thead  span{
+    color: #b8b8b8;
+}
+
+
+.Orders .orderdetails{
+    text-align: end;
+}
+.Orders .action{
+    text-align: end;
+}
+
+.ordersContainer{
+    margin-bottom: 7rem;
+}
+
+.Orders .orderDelivered span{
+    color: #efefef;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: green;
+    font-weight:500;
+}
+.Orders .orderNotDelivered span{
+    color: #efefef;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: #000;
+    font-weight:500;
+}
+
+
+@media (max-width: 900px){
+    #no-more-tables .orderemail{
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space: normal;
+    }
+    
+}
+
+@media (max-width: 400px){
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td{
+    display: block;
+}
+#no-more-tables thead tr{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#no-more-tables td {
+    position: relative;
+    padding-left: 30%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    
+}
+#no-more-tables td:before{
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+    font-weight: bold;
+}
+#no-more-tables tr{
+    border-bottom: 1px solid #ccc;
+    
+}
+#no-more-tables .orderdetails{
+    text-align: start;
+}
+#no-more-tables .orderemail{
+    word-wrap: normal;
+    word-break: normal;
+    white-space: nowrap;
+}
+}

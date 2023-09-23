@@ -1,0 +1,38 @@
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.phoneLogo, .emailLogo{
+    font-size: 2rem;
+    border: 1px solid #CCCCCC;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.4rem;
+    /* color: #CCCCCC; */
+}
+
+.btnConsultion {
+    border: 1px solid #CCCCCC;
+    padding: 4px 9px;
+    box-shadow: 0.5px 0.5px 1px 0.5px #CCCCCC;
+    cursor: pointer;
+}
+
+.btnConsultion a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btnConsultion:hover{
+    background-color: #0071BC;
+}
+
+.btnConsultion a:hover{
+    color: #ffff;
+}
+
+

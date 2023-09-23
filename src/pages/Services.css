@@ -1,0 +1,115 @@
+.services .headhead{
+    color: #ffff;
+    margin-bottom: 4rem;
+}
+.services .ImgC{
+    width: 100%;
+    height: 12rem;
+
+}
+.serviceCard{
+    background-color: #b5b5b5;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services a{
+    text-decoration: none;
+    color: #0071BC;
+}
+.services a:hover{
+    color: #0180d5;
+}
+.services span{
+    text-decoration: none;
+    color: #000;
+}
+.services .ImgC img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services .createdAt{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.services .readMore{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.services .readMore a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0071BC;
+    border: 1px solid #0071BC;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ServiceContent p{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.serviceIcon{
+    font-size: 5rem;
+    cursor: pointer;
+    color: #b5b5b5;
+}
+
+.serviceIcon:hover{
+    color: #ffff;
+    background-color: #0071BC;
+}
+
+.services .readMore a:hover{
+     color: #ffff;
+     background-color: #0071BC;
+}
+
+.ServiceContainer{
+    background-image: url('../../public/images/gavel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    color: #ffff;
+    height: 100%;
+    padding: 1rem;
+}
+
+.services .headNav a{
+   text-decoration: none;
+   color: #ffff;
+   padding: 0.5rem 0.7rem;
+   display: block;
+   background-color: #0180d5;
+   text-transform: uppercase;
+}
+.services .headNav a:hover{
+    background-color: #008dea;
+}
+/* .services .headNav ul li a:active{
+    background-color: red;
+    color: rebeccapurple;
+} */
+
+.services h4{
+    color: #4ba2dd;
+    text-transform: uppercase;
+}
+.services .headNav ul{
+    list-style: none;
+    background-color: #0071BC;
+    padding: 1rem;
+}
+.services .headNav ul li{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,53 @@
+.UserCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    border: 1px solid #d2d2d2;
+}
+
+.user .UserCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    border: 1px solid #d2d2d2;
+}
+.UserCard .imgContainer{
+    border-radius: 50%;
+    border: 3px solid #000;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserCard a {
+    text-decoration: none;
+    color: #000;
+}
+.UserCard .mail {
+    text-decoration: underline;
+}
+.UserCard img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0.3rem
+}
+
+.textContainer{
+    text-align: center;
+}
+.textContainer h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.textContainer span{
+    display: block;
+    color: #7b7b7b;
+    font-weight: 400;
+}

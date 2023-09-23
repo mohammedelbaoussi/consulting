@@ -1,0 +1,60 @@
+.login{
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f1f1;
+    padding: 2rem;
+    width: 40%;
+    
+}
+.LoginForm span{
+    font-size: 1rem;
+}
+
+.LoginForm .smallC{
+    position: relative;
+}
+.LoginForm small{
+    position: absolute;
+    right: 19px;
+    top: 12px;
+    cursor: pointer;
+
+}
+.loginerrors{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.loginlaoding{
+    font-size: 0.8rem;
+}
+
+.LoginForm button{
+    background-color: #0071BC;
+    color: #ffff;
+}
+.LoginForm button:hover{
+    color: #0071BC;
+    background-color: #ffff;
+}
+.LoginForm a{
+   text-decoration: none;
+   color: #0071BC;
+}
+
+@media (max-width: 400px) {
+    .LoginForm{
+        width: 100%;
+        
+    }
+}

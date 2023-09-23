@@ -1,0 +1,124 @@
+.dashtitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin:20px 0px;
+  }
+  
+  .dashtotal{
+    margin-bottom: 20px;
+  }
+.iconcontainer{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 15px;
+  }
+.iconcontainer span{
+    font-size: 1.7rem;
+    margin-bottom: 6px;
+}
+
+.TVisitor{
+ background-color: #86c2ff;
+ color: #0113b8;
+ 
+}
+.TUsers{
+  background-color: #b2edcb;
+  color: #015925;
+  
+ }
+ .TBlogs{
+  background-color: #ffff8c;
+  color: #959715;
+  
+ }
+
+ .TConsultations{
+  background-color: #eb91ff;
+  color: #7f1597;
+ }
+    
+  
+  .dashstatistics{
+    margin-bottom: 20px;
+  }
+  
+  .dashlatestorders tbody th{
+      width: 9rem;
+  }
+  
+  
+  .dashlatestorders .orderstatus .notpaid{
+    background-color: #fd7272;
+    color: #673333;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+  }
+  .dashlatestorders .orderstatus .paid{
+    background-color: #7effa1;
+    color: #336741;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 12px;
+  }
+
+
+  .orderdetails span{
+    color: green;
+    font-size: 1.2rem;
+
+  }
+  .orderdetails span:hover {
+     color: #1eb01e;
+     cursor: pointer;
+  }
+
+  @media (max-width: 400px){
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td{
+    display: block;
+}
+#no-more-tables thead tr{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#no-more-tables td {
+    position: relative;
+    padding-left: 30%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    
+}
+#no-more-tables td:before{
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+    font-weight: bold;
+}
+#no-more-tables tr{
+    border-bottom: 1px solid #ccc;
+    
+}
+#no-more-tables .orderdetails{
+    text-align: start;
+}
+}
+
+@media (max-width: 900px){
+  /* #no-more-tables td{
+    word-wrap: break-word;
+    background-color: red;
+  }
+
+  #no-more-tables .orderemail{
+     width: 1rem;
+  } */
+}

@@ -1,0 +1,53 @@
+.reviews{
+    margin-top: 5rem;
+}
+
+.reviews h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.reviews .mySwiper{
+    overflow: hidden;
+}
+
+.reviews .mySwiper .SwiperSlide{
+    margin-right: 2rem;
+    background-color: #e4f4ff;
+    padding: 1rem;
+}
+
+.reviewcard{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+
+}
+.reviewcard .imgContainer{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 3px solid  hsl(211, 27%, 70%);
+}
+
+.reviewcard .imgContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover ;
+}
+
+.reviewcard h5{
+    font-weight: 900;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.reviewcard p{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,50 @@
+.header1 .logo img{
+    width: 3rem;
+    height: 3rem;
+}
+@media (max-width: 400px) {
+     .header1 .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    .leftHeader1{
+        padding-top: 1rem;
+    }
+    .phoneLogo, .emailLogo{
+        font-size: 1.5rem;
+        border: 1px solid #CCCCCC;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0.2rem;
+        /* color: #CCCCCC; */
+    }
+    .mainText{
+        font-size: 0.7rem;
+    }
+    
+    .btnConsultion {
+        border: 0.5px solid #CCCCCC;
+        padding: 2px 7px;
+        box-shadow: 0.5px 0.5px 1px 0.5px #CCCCCC;
+        cursor: pointer;
+    }
+    
+    .btnConsultion a{
+        text-decoration: none;
+        color: #000;
+        font-size: 0.7rem;
+    }
+    
+    .btnConsultion:hover{
+        background-color: #0071BC;
+    }
+    
+    .btnConsultion a:hover{
+        color: #ffff;
+    }
+}
+

@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+.avieclients p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 1rem 2rem; 
+}
+
+.commaCtn span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1.2rem;
+    line-height: 0;
+    color: #666666;
+}
+.commaCtn{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 400px) {
+    .reviewCard{
+        margin-bottom: 1rem;
+    }
+}
+
